@@ -8,19 +8,21 @@ body{
     background-image: linear-gradient(to right, rgb(30, 82, 124), rgb(62, 159, 177));  
 }
 .title{
+    border: none;
+    margin: 8px auto;
     color: white;
     text-align: center;   
-    padding-bottom: 5px;   
+    padding-bottom: 10px;   
 }
 .calc-grid{
-    height : 100vh;  
+  
     display: grid;
     grid-template-columns : repeat(4, 80px);
     grid-template-rows: minmax(120px, auto) repeat(5, 80px);  
     outline: none;
     justify-content: center;   
     align-content: start;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
 }
 .calc-grid button{
   cursor : pointer;
@@ -55,4 +57,11 @@ body{
     color: rgba(255, 255, 255, 0.95);
     font-size: 1.8rem;
    max-width : 310px;
+}
+footer{
+    padding: 2px;
+    background-color: rgb(61, 58, 58);
+    text-align: center;
+    font-size: 13px;
+    color: white;
 }
